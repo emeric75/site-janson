@@ -1,0 +1,126 @@
+html,body{
+	margin: 0;
+}
+
+body{
+	font-family: Arial;
+	color: black;
+	background-image: url("im-janson.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#navhover {
+    background-color: rgb(100,43,29);
+    color: black;
+	width: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+
+#nav {
+    position: fixed;
+	width: 200px;
+    display: inline-block;
+	z-index: 2;
+}
+.page
+{
+	margin: 0;
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+	text-align: center;
+	z-index: 1;
+	background-color: rgba(72,31,21,0.45);
+    display: block;
+}
+.accueil_link{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+
+#connect{
+	display: inline-block;
+	border: 5px solid black;
+}
+
+
+
+
+
+
+
+
+
+#tables h1{
+	display: inline;
+	color: rgba(0,0,0,0.5);
+	margin-left: 50px;
+	margin-right: 50px;
+}
+#tables{
+	display: inline-block;
+}
+#tables table{
+	display: inline;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+#tables tr th{
+	font-size: 30px;
+}
+
+
+
+
+#navlink {
+    position: absolute;
+    background-color: rgba(249,249,249,0.95);
+    width: inherit;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+#navlink a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+	text-align: center;
+    display: block;
+}
+
+#navlink a:hover {background-color: #999999}
+
+#nav:hover #navlink {
+    display: block;
+}
+
+#nav:hover #navhover {
+    background-color: rgb(143,61,41);
+}
+
+
+
+.center{
+	padding-left: 50%;
+	padding-right: 50%;
+}
+.th_notes{
+	font-size: 70px;
+}
+.note{
+	display: inline;
+}
+
+
+
